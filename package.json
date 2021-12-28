@@ -1,0 +1,17 @@
+{
+  "name": "zhaoyuchun-life",
+  "version": "1.0.0",
+  "description": "zhaoyuchun.life 的首页显示，第一要务是尽可能地简约",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "sass": "^1.45.1",
+    "sass-loader": "^12.4.0",
+    "vuepress": "^1.9.5"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  }
+}
