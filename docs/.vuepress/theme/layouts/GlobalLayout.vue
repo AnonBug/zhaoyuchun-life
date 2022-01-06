@@ -11,7 +11,7 @@
     </div>
     <footer class="global">
       <div style="text-align: center;">
-        Made with ❤️  in Wuhan · © 2021
+        <a class="beian" href="https://beian.miit.gov.cn" target="__blank">豫ICP备2022000371号-1</a> · © 2021-{{new Date().getFullYear()}}
       </div>
     </footer>
   </div>
@@ -37,6 +37,8 @@ export default {
   display: flex;
   flex-direction: column;
   font-family: Georgia, STSong, serif;
+  /* 禁止复制 */
+  user-select: none;
 }
 
 header {
@@ -78,9 +80,14 @@ header {
 footer.global {
   padding: 15px 0;
   border-top: 1px solid #e8e8e8;
+  font-size: 0.8rem;
 }
 
 .content {
   flex: 1;
+}
+
+.beian {
+  color: inherit;
 }
 </style>
