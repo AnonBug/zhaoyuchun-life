@@ -27,7 +27,7 @@ body {
   margin-top: 0 !important;
 }
 
-h3 {
+.essay h3 {
   margin: 0 !important;
   padding: 0!important;
 }
